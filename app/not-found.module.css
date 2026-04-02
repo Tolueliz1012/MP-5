@@ -1,0 +1,37 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.code {
+  font-family: var(--font-display);
+  font-size: 8rem;
+  line-height: 1;
+  color: var(--accent);
+  opacity: 0.4;
+}
+
+.message {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+
+.link {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+
+.link:hover {
+  border-color: var(--accent);
+}
